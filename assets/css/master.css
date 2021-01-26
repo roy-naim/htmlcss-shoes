@@ -54,9 +54,41 @@ main{
   position: absolute;
 }
 
-ul .circle li {
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  height: 70px;
+  line-height: 70px;
+}
+
+.right {
+  float: right;
+}
+
+ul li a {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  margin: 40px 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+/*ul li .circle {
   height: 25px;
   width: 25px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+ } */
+
+ul li {
+  display: inline;
+}
